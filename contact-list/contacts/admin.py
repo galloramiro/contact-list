@@ -6,8 +6,8 @@ from contacts.models import Contact
 class ContactAdmin(admin.ModelAdmin):
     """Contact model admin."""
 
-    list_display = ('first_name', 'last_name', 'email', 'phone_number')
-    list_filter = ('first_name', 'last_name', 'email')
+    list_display = ('name', 'lastname', 'email', 'phone')
+    list_filter = ('name', 'lastname', 'email')
 
 
 admin.site.register(Contact, ContactAdmin)
