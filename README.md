@@ -17,3 +17,8 @@ You can also populate the db with example data by running the following command:
 ```bash
 $ docker-compose exec contact-list python3 manage.py loaddata example_data.json
 ```
+
+### Tests
+```bash
+docker-compose exec contact-list pytest -vv
+```
