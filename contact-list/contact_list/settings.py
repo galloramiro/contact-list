@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'django_extensions',
+    'django_filters',
     'rest_framework',
 
     'contacts.apps.ContactsConfig',
