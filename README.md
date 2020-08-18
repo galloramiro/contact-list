@@ -7,5 +7,13 @@ To run this project you need to install [Docker](https://docs.docker.com/get-doc
 
 Then you can go into the command line
 ```bash
-docker-compose up --build
+$ git clone https://github.com/galloramiro/contact-list.git
+$ cd contact-list
+$ cp contact-list/.env.template contact-list/.env 
+$ docker-compose up --build
 ``` 
+
+You can also populate the db with example data by running the following command:
+```bash
+$ docker-compose exec contact-list python3 manage.py loaddata example_data.json
+```
