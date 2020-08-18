@@ -3,80 +3,80 @@
     "model":"contacts.contact",
     "pk":1,
     "fields":{
-      "first_name": "Ricardo",
-      "last_name":"Example1",
+      "name": "Ricardo",
+      "lastname":"Example1",
       "email":"ricardo@example.com",
-      "phone_number":"+5491144445551"
+      "phone":"+5491144445551"
     }
   },
   {
     "model":"contacts.contact",
     "pk":2,
     "fields":{
-      "first_name": "Max",
-      "last_name":"Example1",
+      "name": "Max",
+      "lastname":"Example1",
       "email":"max@example.com",
-      "phone_number":"+5491144445552"
+      "phone":"+5491144445552"
     }
   },
   {
     "model":"contacts.contact",
     "pk":3,
     "fields":{
-      "first_name": "Nicolas",
-      "last_name":"Example4",
+      "name": "Nicolas",
+      "lastname":"Example4",
       "email":"nicolas@example.com",
-      "phone_number":"+5491144445553"
+      "phone":"+5491144445553"
     }
   },
   {
     "model":"contacts.contact",
     "pk":4,
     "fields":{
-      "first_name": "Anastasia",
-      "last_name":"Example2",
+      "name": "Anastasia",
+      "lastname":"Example2",
       "email":"anastasia@example.com",
-      "phone_number":"+5491144445554"
+      "phone":"+5491144445554"
     }
   },
   {
     "model":"contacts.contact",
     "pk":5,
     "fields":{
-      "first_name": "Anacleta",
-      "last_name":"Example2",
+      "name": "Anacleta",
+      "lastname":"Example2",
       "email":"anacleta@example.com",
-      "phone_number":"+5491144445555"
+      "phone":"+5491144445555"
     }
   },
   {
     "model":"contacts.contact",
     "pk":6,
     "fields":{
-      "first_name": "Roxana",
-      "last_name":"Example3",
+      "name": "Roxana",
+      "lastname":"Example3",
       "email":"roxana@example.com",
-      "phone_number":"+5491144445556"
+      "phone":"+5491144445556"
     }
   },
   {
     "model":"contacts.contact",
     "pk":7,
     "fields":{
-      "first_name": "Emilio",
-      "last_name":"Example3",
+      "name": "Emilio",
+      "lastname":"Example3",
       "email":"emilio@example.com",
-      "phone_number":"+5491144445557"
+      "phone":"+5491144445557"
     }
   },
   {
     "model":"contacts.contact",
     "pk":8,
     "fields":{
-      "first_name": "Julian",
-      "last_name":"Example4",
+      "name": "Julian",
+      "lastname":"Example4",
       "email":"julian@example.com",
-      "phone_number":"+5491144445558"
+      "phone":"+5491144445558"
     }
   }
 ]
